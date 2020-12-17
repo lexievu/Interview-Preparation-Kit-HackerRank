@@ -35,3 +35,17 @@ For each game, you will get an array of clouds numbered 0 if they are safe or 1 
 [Problem Statement:](https://hackerrank-challenge-pdfs.s3.amazonaws.com/24548-repeated-string-English?AWSAccessKeyId=AKIAR6O7GJNX5DNFO3PV&Expires=1607959121&Signature=EVdXK6nfUp2XZhj%2F%2BQEw%2Btqmfsg%3D&response-content-disposition=inline%3B%20filename%3Drepeated-string-English.pdf&response-content-type=application%2Fpdf)
 There is a string, ```s```, of lowercase English letters that is repeated infinitely many times. Given an integer, ```n```, 
 find and print the number of letter a's in the first ```n``` letters of the infinite string. 
+
+## Arrays: 
+
+### 1. 2D Array - DS
+[Problem Statement:](https://hackerrank-challenge-pdfs.s3.amazonaws.com/13581-2d-array-English?AWSAccessKeyId=AKIAR6O7GJNX5DNFO3PV&Expires=1608241608&Signature=YniTbFaRJrDKQzupAZ0fGCGlg7Y%3D&response-content-disposition=inline%3B%20filename%3D2d-array-English.pdf&response-content-type=application%2Fpdf)
+Given a 6 x 6 2D Array, ```arr```, an hourglass in A is a subset of values with indices falling in this pattern 
+in ```arr```'s graphical representation: 
+```buildoutcfg
+a b c
+  d
+e f g  
+```
+There are 16 hourglasses in ```arr```. An hourglass sum is the sum of an hourglass' values. Calculate the hourglass sum 
+for every hourglass in ```arr```, then print the maximum hourglass sum. The array will always be 6 x 6.
